@@ -1,6 +1,17 @@
+// Javascript program to print Helloworld
+
 Here, we will use these three ways to prints status
 (i) console.log() or window() :- It is used in debugging the code.
                       console.log("Sandip);                                      
 (ii) alert :- The alert() method display an alert box  over the current
 
 (iii) document.write :- It is used when you want to print the content to the HTML document.
+
+//javascript program to Add two number
+
+You should have the knowledge of the following Javascript programming topics:
+(a) JavaScript variable and constant :-We used var, let or const keyword are used to declare variable.
+        eg:- let x=9;
+(b) Javascript operator :- operator is a symbol which are perform operation on operand.They have include 
+    Arithmetic ,Logical,comparision,Bitwish, Assignment,string operator etc.
+        eg:- let (x+y)+4/2;
