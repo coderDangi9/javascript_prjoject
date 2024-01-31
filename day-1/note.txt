@@ -1,0 +1,6 @@
+Here, we will use these three ways to prints status
+(i) console.log() or window() :- It is used in debugging the code.
+                      console.log("Sandip);                                      
+(ii) alert :- The alert() method display an alert box  over the current
+
+(iii) document.write :- It is used when you want to print the content to the HTML document.
