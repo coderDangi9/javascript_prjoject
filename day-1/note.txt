@@ -15,3 +15,40 @@ You should have the knowledge of the following Javascript programming topics:
 (b) Javascript operator :- operator is a symbol which are perform operation on operand.They have include 
     Arithmetic ,Logical,comparision,Bitwish, Assignment,string operator etc.
         eg:- let (x+y)+4/2;
+
+(c) Javascript Math.sqrt():- The sqrt() method is used to find square root of given value and return it.
+
+
+//Javascript program is to find the area of triangle 
+                here, If you known all the sides of a triangle you can find the area using Heron's formula.
+                If a ,b,c are three side of triangle.
+
+        area = (s*(s-a)*(s-b)*(s-c))^0.5
+
+
+    //    Using temporary variable
+        swap variable
+           let temp;
+                temp = a;
+                a=b;
+                b = temp;
+
+        Alternative,
+        // Using Destructing assignment
+                [a,b] = [b,a];
+
+        // Assignment operators
+                a= a+b;
+                b= a-b;
+                c = a-b;
+
+        // Using Bitwise operator
+                a = a^b;
+                b = a^b;
+                c = a^b;
+
+// converting kilometer into miles
+        fahrenheit = (celsius *1.8)+32;
+
+
+                
