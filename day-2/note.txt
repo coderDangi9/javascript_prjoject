@@ -1,0 +1,8 @@
+JavaScript program to generate random number
+    we can generate random number with math.random() function.
+    math.random() returns a random floating points number ranging from 0 to less than 1(inclusive of 0 and enclusive of 1).
+
+    we can use this value in the range (0,10) to find the random
+    math.random * (endpoint - startpoint)+startpoint;
+    This will show integer output on the range of 1 to 9 .
+    so, inclusive method we used  Math.floor(Math.random()*(max -min +1)+min);
