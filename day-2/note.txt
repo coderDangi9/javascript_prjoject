@@ -6,3 +6,27 @@ JavaScript program to generate random number
     math.random * (endpoint - startpoint)+startpoint;
     This will show integer output on the range of 1 to 9 .
     so, inclusive method we used  Math.floor(Math.random()*(max -min +1)+min);
+
+JavaScript program to solve Quatratic equation
+    (i) JavaScript if----else statement
+    (ii) JavaScript Math sqrt()
+
+    This program Computes roots of a quadratic equation when its coefficient are known .
+    the standard form of a quadratic equation is:
+            ax^2+bx+c =0, where, a,b,c are the real number.
+
+        To find the roots of such equation we use the formula,
+            (root1, root2) = (-b +_ ((b2-4ac)/2)).
+
+                HERE (b2-4ac)/2, is the discriminat of a quadratic equation.
+                    if (this) >0 i.e real and different.
+                    else if(this)=0 i.e real and equal.\
+                    else if(this)<0 i.e complex and different.
+    
+// To check given number is positive , negative or zero
+(i) JavaScript comparision and Logical operations
+(ii) JavaScript if ------else statement
+
+ // To check the number which is odd or even
+ (i) Using if---else condition.
+  (ii) by using ternary operator.
