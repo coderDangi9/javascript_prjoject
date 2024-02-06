@@ -30,3 +30,22 @@ JavaScript program to solve Quatratic equation
  // To check the number which is odd or even
  (i) Using if---else condition.
   (ii) by using ternary operator.
+
+  // JavaScript to find the largest among 3 number.
+        if(n1>n2){
+            if(n1>n3){
+                console.log(n1);
+            }
+            else{
+                console.log(n3);
+            }
+        }
+        else{
+            if(n2>n3){
+                console.log(n2);
+            }
+            else{
+                console.log(n3);
+            }
+        }
+        

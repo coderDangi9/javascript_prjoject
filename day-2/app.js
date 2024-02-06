@@ -6,6 +6,7 @@
     // console.log(`${Math.floor(Math.random()*(x-y)+y)}`)
     console.log(Math.floor(Math.random()*(x-y+1)+y));
 
+    
 //JavaScript program to solve quadratic equation.
   let root1,root2;
   // take input from the user

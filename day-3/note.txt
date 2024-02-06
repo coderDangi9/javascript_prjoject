@@ -1,0 +1,19 @@
+To Find the given number is prime or not
+let isPrime = true;
+let n=9;
+if(n===1){
+    console.log("neither prime nor consunant");
+}
+for(let i=2;i<n;i++){
+    if(num %i==0){
+        isPrime false;
+        break;
+    }
+}
+    if(isPrime){
+        console.log("prime");
+    }
+    else{
+        console.log("not Prime");
+    }
+
