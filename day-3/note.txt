@@ -17,3 +17,6 @@ for(let i=2;i<n;i++){
         console.log("not Prime");
     }
 
+//Javascript program to find the factorial number.
+
+    let fac
