@@ -1,0 +1,25 @@
+// Javascript program to find the sample calculator.
+here, user choose a operator and to input value.
+ and get result.
+
+
+// do {
+//   let value = parseFloat(prompt("Enter a number"));
+//   let operator = prompt("Enter operator");
+// } while (0);
+// {
+//   console.log(`${(value = value + operator)}`);
+//   if (operator == "=") {
+//     exit(1);
+//   }
+// }
+
+// Javascript program to find the sum of Natural number.
+
+// Find HCF using for Loop
+
+// Find LCM using while loop and if statement.
+
+// Find LCM using HCF
+
+Javascript program to find the factor of given number.

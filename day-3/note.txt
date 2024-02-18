@@ -19,4 +19,4 @@ for(let i=2;i<n;i++){
 
 //Javascript program to find the factorial number.
 
-    let fac
+// Javascript program to find the armstrong number.
