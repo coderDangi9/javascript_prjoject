@@ -1,0 +1,7 @@
+Javascript program to check the given string is plaindrome or not.
+    A string is a palindrome if it is read same from forward
+    and Backward. so the word dad is a plaindrome  and similary, madam is also a plaindrome.
+    
+Javascript program to sort a string
+
+Javascript program to replace string in a word.

@@ -3,4 +3,8 @@ Javascript program to find the sum of nth natural number by using recursion meth
 Javascript program to guess the random number.
 
 Javascript program to find the factorial of number using recursion.
-        using recursion function with 
+        using recursion function with if statement.
+    
+javascript program to convert Decimal to binary number.
+
+Javascript program to find the ASCII value of character
