@@ -5,3 +5,5 @@ Javascript program to check the given string is plaindrome or not.
 Javascript program to sort a string
 
 Javascript program to replace string in a word.
+
+Javascript program to reverse a string.

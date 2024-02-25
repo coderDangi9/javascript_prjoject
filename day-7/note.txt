@@ -1,0 +1,4 @@
+JavaScript program to create object in different way
+(a) Using object literal
+(b) By creating instance of object directly
+(c) By using constructor function.
