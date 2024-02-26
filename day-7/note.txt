@@ -2,3 +2,5 @@ JavaScript program to create object in different way
 (a) Using object literal
 (b) By creating instance of object directly
 (c) By using constructor function.
+
+JavaScript program to check the number of accurence often character in the string.

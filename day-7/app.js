@@ -83,3 +83,22 @@ const result = countString(string, letter);
 //display the result
 console.log(result);
 */
+
+// javascript program to make upperCase in 1st letter
+/*
+function upperCase(str) {
+  const check = str.charAt(0).toUpperCase() + str.slice(1);
+  return check;
+}
+const string = prompt("Enter your string. ");
+const result = upperCase(string);
+console.log(result);
+*/
+// JavaScript Program to Count the Number of vowels in a String.
+function count_Vowel(str) {
+  const count = str.match(/[aeiou]/gi).length;
+  return count;
+}
+const string = prompt("Enter a string");
+const result = count_Vowel(string);
+console.log(result);
