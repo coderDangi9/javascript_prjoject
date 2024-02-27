@@ -1,0 +1,20 @@
+// JavaScript program to count vowel in String.
+
+An object is written in a key/value pair. THe key/value pair is called a property. for example.
+const student ={
+    name ='John',
+    age =33;
+}
+Here, name:'John' and age:33 are the two properties of a student object.
+
+JavaScript to check given string have an start with 'S' and end with 'G'; or not;
+
+JavaScript to check if a key Exits in an object.
+
+JavaScript program to clone a Js object
+        (a). Clone the object using object.assign()
+            The object.assign() method is part of the ES6 standard. The object.assign() method performs deep 
+            copy and copies all the properties for one or more objects.
+
+        (b). clone the object using spread syntax()
+            The spread syntax  is (....Object.name)
