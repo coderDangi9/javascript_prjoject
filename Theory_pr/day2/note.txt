@@ -1,0 +1,18 @@
+Comments in Js
+    Part of code which is not executed
+        //This is a single line comment.
+        /* This is a multi-line 
+                comment */
+
+Operators in Js
+    Used to perform some operation on data
+        Arithmetic Operators
+            +,-,*,/
+            Modulus
+            Exponentiation
+            Increment
+        Comparison Operators
+            Equal to ==
+            Equal to & type ===
+            Not equal to !=
+            Not equal to & type !==
