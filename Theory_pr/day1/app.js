@@ -33,3 +33,4 @@ const Profile = {
   followers: 596000,
   isFollow: true,
 };
+console.log(Profile.name);

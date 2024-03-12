@@ -1,0 +1,28 @@
+What is JavaScript?
+    Js is a programming Language. We use it to give instructions to the computer.
+
+    input(code) => Computer => Output
+
+    our first javascript code
+        console.log('Its mine first code');
+
+    Varibles in Js
+        Varibales are containers for data.
+
+    Variable Rules 
+        Variable names are case sensitive; "a" and "A" is different.
+        Only letters, digits, underscore(_) and $ is allowed.(not even space);
+        only a letter, underscore(_) or $ should be 1st character.
+        Reserved words cannot be variable names.
+
+
+    Variable Decleration
+        var,let , const;
+
+        var: Variable can be re-declared & updated. A global scope varible.
+        let: Variable cannot be re-declare but can be updated. A block scope variable.
+        const: Variable cannot be re-declared or updated. A block scope variable.
+
+    Data type in Js
+        Number, string, boolean, undefined, null bigint, symbol
+        
