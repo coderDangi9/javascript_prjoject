@@ -1,0 +1,4 @@
+javascript program by using for --in loop
+
+javascript program to merge property by using Object.assign();
+or spread operator.

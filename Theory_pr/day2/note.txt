@@ -16,3 +16,19 @@ Operators in Js
             Equal to & type ===
             Not equal to !=
             Not equal to & type !==
+        Logical Operators
+            Logical AND &&
+            Logical OR ||
+            Logical NOT !
+
+    conditional statements
+        TO implement some condition in the code
+            If (age >=18)
+                you can vote.
+            else
+                you can't vote.
+
+
+Ternary Operators
+    condition?true output: false output
+        age>18? "adult":"not adult";
