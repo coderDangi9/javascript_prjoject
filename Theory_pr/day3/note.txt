@@ -1,0 +1,22 @@
+Loops in Js
+    Loops are used to executed a piece of code again and again
+    for Loop
+        for(let i=1;i<=5;i++){
+            console.log("Happy holi");
+        }
+    Infinite Loop
+        A Loop that never ends.
+    while Loop
+        while(condition){
+            // do some work
+        }
+
+for-of-Loop
+    for(let val of strVar){
+        //do some work
+    }
+
+for-in-Loop
+    for(let key of strVar){
+        // do some work.
+    }
