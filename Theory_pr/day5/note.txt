@@ -1,0 +1,23 @@
+Function in Js
+    Block of code that perform a specific task,
+    can be invoked whenever needed
+
+    Function Definition
+        function functionName(){
+            //do somework
+        }
+        function functionName(par1, par2,....){
+        //do somework
+        }
+    function call
+        functioName();
+
+Arrow Function
+    Compact way of writing a function
+
+    const functionName=(par1, par2,....){
+        //do some work
+    }
+    const sum =(a,b)=>{
+        return a+b;
+    }

@@ -1,0 +1,26 @@
+Arrays in Js
+    -> Collections of items
+
+    create Arrays
+    let heroes =["ironman", "justman", "bunker"];
+    let marks= [98,76,78,88,95];
+    let info = ["sandy", 89, "Delhi"];
+
+Array indices
+arr[0], arr[1], arr[2]...
+
+Looping over an Array
+    Print all elements of an Array
+    
+Array in Js
+    Array Methods
+    Push(): add to end
+    Pop(): delete from end & return
+    toSting(): converts array to string
+    Concat(): joins multiple array & returns result
+    unshift():add to start
+    shift():delete from start & return 
+    slice():return a pices of the array
+        slice(starlx,endldx)
+    splice(): change original array(add,remove, rplace)
+    splice(startldx,delCount, newEle...)

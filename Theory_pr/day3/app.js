@@ -47,7 +47,7 @@ for (i = 0; i <= 100; i++) {
     console.log(i);
   }
 }
-*/
+
 // Create a game where you start with any random game number.
 // Ask the user to keep guessing the game number until the user
 // enters correct value.
@@ -57,3 +57,4 @@ while (user != gnum) {
   user = prompt("Please, Enter your guess number.");
 }
 console.log(`Congrats,You Won the Game.`);
+*/
