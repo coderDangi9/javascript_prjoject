@@ -15,9 +15,44 @@ Function in Js
 Arrow Function
     Compact way of writing a function
 
-    const functionName=(par1, par2,....){
+    const functionName=(par1, par2,....)=>{
         //do some work
     }
     const sum =(a,b)=>{
         return a+b;
     }
+
+forEach Loop in Arrays
+    arr.forEach(callBackFunction)
+        CallbackFunction :Here, it is a function to execute for each element in the array.
+        # A callback is a function passed as an argument to another function.
+                arr.forEach((val)=>{
+                    console.log(val);
+                })
+
+Higher Order function/Method
+    forEach(); => function value return;
+                  function Parameter;
+                  if which have include callback function.
+
+SOme More Array Method
+    Creats a new array with the results of some operation.The value its callback returns are 
+    used to form new array
+
+    arr.map(callbackFnx(value,index,array))
+    let newArr = arr.map((val)=>{
+        return val*2;
+    })
+
+    Filter
+        Create a new array of element that give true for a condition.filter.
+        Eg: all even elements
+
+        let newArr = arr.filter((val)={
+                return val %2==0;
+        })
+
+    Reduce
+        Perform some operations & reduces the array to single value.It returns 
+        that single value.
+        

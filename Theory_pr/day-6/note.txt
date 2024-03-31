@@ -1,0 +1,7 @@
+The 3 Musketeers of Web Dev
+    HTML, CSS, JS
+
+    Starter COde
+    <style> tag connects HTML with CSS
+
+    <style> tag connects HTML with JS.
