@@ -22,3 +22,16 @@ DOM Manipulation
         document.getElementByclassName("myClass");
     -Selecting with tag
         document.getElementByTagName("p");
+
+
+    Query Selector
+        document.querySelector("myId/myClass/tag");
+            //return first element.
+        document.querySelectorAll("myId/myClass/tag");
+            // return a Node list.
+
+    properties
+    - tagName : returns tag for element nodes 
+    - innterText : returns the text content of the element and all its children
+    -innerHTML : returns the plain text of HTML contents in the element.
+    -textContent : returns textual content even for hidden elements.
