@@ -1,9 +1,16 @@
-
+/* 
 .box 
 {
-    height: 200px;
+    height: 300px;
     width: 100px;
     background-color: rgb(1, 14, 9);
     color: white;
     border: 1px solid black;
+} */
+
+.break{
+    color: red;
+}
+.newClass{
+    background-color: gray;
 }
