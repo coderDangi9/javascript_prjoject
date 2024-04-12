@@ -13,4 +13,7 @@ DOM Manipulation
     -node.after(el); // adds after the node(outside);
 
     Delete Element
-    - node.remove()// remove the node  
+    - node.remove()// remove the node 
+
+    
+     
