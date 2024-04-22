@@ -1,0 +1,67 @@
+First of all we initialize userScore and comScore is 0;
+
+we declare choices to call className through document.querySelectorAll
+and similarly, we declare msg,UScore,CScore and call it with It's ID through document.querySelector.
+
+We declare showWinner which show the winner to play this match.i.e(userwin, userChoice,compChic)
+
+    we used a condition:-
+    const showW =(userwin, compChoice, userChoice)=>{
+        if(userwin){
+            msg.innerText=` User beats computer`;
+            userScore++;
+            UScore.innerText=userScore;
+            msg.style.backgroundColor ="Blue";
+        }
+        else{
+            msg.innerText= ` computer beats User`;
+            compScore++;
+            CScore.innerText= compScore;
+            msg.style.backgroundColor="Red";
+        }
+    }
+//function create to find computer choice Generator 
+//let create array
+const comgen=()=>{
+    const option=['rock', 'scissor','paper'];
+    const random= Math.floor(Math.random()*3);
+    return option[random];
+}
+// Draw the Game
+const draw =()=>{
+    msg.innerText ="Game Was Draw !!";
+    msg.style.backgroundColor ="yello"
+}
+
+// start Game
+
+const playGame=(userChoice)=>{
+    const comChoice= comgen();
+    if(userChoice==comChoice){
+        draw();
+    }
+    else{
+        let userwin = false;
+        if(userChoice="rock"){
+            //scissor,paper;
+            userwin = compChoice === "scissor"?true:false;
+        }
+        else if (userChoice = "paper"){
+            //rock,scissor;
+            userwin = compChoice === "rock"?true:false;
+        }
+        else{
+            //rock,paper
+            userwin = compChoice === "paper"?true:false;
+        }
+        showW(userwin, compChoice, userChoice)
+    };
+
+
+}
+choices.forEach((choice)=>{
+    choice.addEventListener("click",()=>{
+        const userChoice = choice.getAttribute("id");
+        playGame(userChoice);
+    })
+})
