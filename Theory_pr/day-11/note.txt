@@ -1,0 +1,26 @@
+Prototypes in JS
+    A javascript object is an entity having state and behavior(properties and method).
+    JS objects having a special property called prototype.
+    We can set prototype using  _ _ proto _ _
+
+
+    we create a function 
+       const value(){
+
+        } or
+        value : function(){
+
+        }
+    
+    we create a Own Prototypes
+        const emp={
+            vat =10%;
+            salary= salary - (salary/10);
+            return salary;
+        };
+
+        const paisa={
+            perMonth=5000;
+        }
+
+        paisa.__proto__=emp;
